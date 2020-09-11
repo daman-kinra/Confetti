@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Oswald:wght@500&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl( 0, 0%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center_div{
+    min-width: 50vw;
+    height: 40vh;
+    color: rgb(28, 93, 168);
+    text-shadow: 0 0 2rem rgba(0,0,0,0.7);
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+   .center_div{
+       font-size: 40px;
+   }
+  }
